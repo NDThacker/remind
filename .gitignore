@@ -1,3 +1,4 @@
-.txt
-data/
+data/**
 .vscode/
+data
+**/__pycache__
