@@ -77,7 +77,6 @@ parser.add_argument('--view-all', action = 'store_true', help = 'display all the
 
 args = vars(parser.parse_args())
 
-print(args)
 if args.get('today'):
 	events = extractForToday(eventList)
 	viewAll(events)
@@ -110,5 +109,3 @@ else:
 	eventList = addEvent(eventList)
 	print('Event added Successfully')
 	saveDataDump()
-
-
