@@ -18,7 +18,7 @@ setup(
     keywords = "commandline event recorder utility",
     url = "https://github.com/NDThacker/remind",
     packages = ['scripts',],
-    long_description = read('README'),
+    long_description = read('README.md'),
 	long_description_content_type = "text/markdown",
 	scripts = ['remind'],
     classifiers = [
