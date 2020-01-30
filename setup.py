@@ -20,6 +20,7 @@ setup(
     packages = ['scripts',],
     long_description = read('README'),
 	long_description_content_type = "text/markdown",
+	scripts = ['remind'],
     classifiers = [
         "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: MIT License",
