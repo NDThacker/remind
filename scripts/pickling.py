@@ -13,7 +13,10 @@ def loadEvents():
 
 
 def saveEvents(eventList):
-	dataFile = open('../data/eventsData.pkl', 'wb')
+	try:
+		dataFile = open('../data/eventsData.pkl', 'wb')
+	except:
+		print('Cannot save data on system.!\nCheck the given permission..')
 	pickle.dump(eventList, dataFile)
 	dataFile.close()
 	return
